@@ -1,0 +1,31 @@
+.nocarou {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    margin: 30px 0px;
+}
+
+.nocarou_container{
+    position: relative;
+    overflow: hidden;
+}
+
+.nocarou_track {
+    transform: translate3d(0, 0, 0);
+    display: flex;
+}
+
+.nocarou_item {
+    float: left;
+    margin: 40px 10px;
+    background-color: #fff;
+    box-shadow: 0 15px 35px #3232321a, 0 5px 15px #0000001a;
+    transition: transform .3s;
+    transform: translate3d(0, -1px, 0);
+}
+
+.nocarou_item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
